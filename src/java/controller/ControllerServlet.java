@@ -104,7 +104,7 @@ public class ControllerServlet extends HttpServlet {
         }
     }
 
-	private static String toForwardingUrl( final String userPath) {
-		return "/WEB-INF/view" + userPath + ".jsp";
-	}
+    private static String toForwardingUrl( final String userPath) {
+            return "/WEB-INF/view" + userPath + ".jsp";
+    }
 }
