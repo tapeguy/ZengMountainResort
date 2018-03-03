@@ -1,0 +1,12 @@
+<%--
+    Document   : footer
+--%>
+
+
+            <div id="footer">
+                <hr>
+                <p id="footerText">copyright Zeng Mountain Resort, 2018</p>
+            </div>
+        </div>
+    </body>
+</html>
