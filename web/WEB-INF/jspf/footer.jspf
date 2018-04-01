@@ -1,11 +1,17 @@
 <%--
-    Document   : footer
+ * author: SS
 --%>
 
 
             <div id="footer">
-                <hr>
-                <p id="footerText">copyright Zeng Mountain Resort, 2018</p>
+                <br>
+                <hr id="footerDivider">
+                <p id="footerText" class="reallySmallText">
+                    <a href="<c:url value='#'/>"><fmt:message key="privacy" /></a>
+                    &nbsp;&nbsp;::&nbsp;&nbsp;
+                    <a href="<c:url value='#'/>"><fmt:message key="contact" /></a>
+                    &nbsp;&nbsp;&copy;&nbsp;&nbsp;
+                    2018 Zeng Mountain Resort</p>
             </div>
         </div>
     </body>
