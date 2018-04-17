@@ -1,4 +1,3 @@
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%--
  * author: SS
 --%>
@@ -11,7 +10,7 @@
 
 
 <%-- HTML markup starts below --%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
 <div id="indexLeftColumn">
     <div id="welcomeText">
         <p style="font-size: larger"><fmt:message key='greeting' /></p>
