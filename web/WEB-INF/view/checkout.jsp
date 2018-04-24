@@ -141,7 +141,7 @@
                            value="${param.address}">
 
                     <br>
-                    <fmt:message key="prague"/>
+                    <fmt:message key="city"/>
                     <select name="cityRegion">
                       <c:forEach begin="1" end="10" var="regionNumber">
                         <option value="${regionNumber}"

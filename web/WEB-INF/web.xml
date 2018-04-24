@@ -74,4 +74,8 @@
             <transport-guarantee>CONFIDENTIAL</transport-guarantee>
         </user-data-constraint>
     </security-constraint>
+    <security-role>
+        <description/>
+        <role-name>zengMountainResortAdmin</role-name>
+    </security-role>
 </web-app>
