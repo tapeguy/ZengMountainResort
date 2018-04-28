@@ -1,7 +1,7 @@
 /* html tags */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 850px;
+    width: 1200px;
     text-align: center;
     margin: 20px auto;
     color: #444;
@@ -45,7 +45,7 @@ label.error {
 
 
 /* general styles */
-#main { background: #f7f7e9 }
+#main { background: #7a827e }
 
 #singleColumn {
     margin: 20px 30px;
@@ -90,7 +90,7 @@ label.error {
 /* styles for elements contained in the header, i.e.,
    shopping cart widget, language toggle, and logo */
 #header {
-    width: 850px;
+    width: 1050px;
     height: 250px;
     background: url(../img/stalk.png) no-repeat 28px 28px;
 }
@@ -103,7 +103,7 @@ label.error {
 
 #logoText {
     float: left;
-    margin: 20px 0 0 70px;
+    margin: 0 0 0 70px;
     /* font styles apply to text within img alt attribute */
     font-family: 'American Typewriter', Courier, monospace;
     font-size: 50px;
@@ -159,7 +159,7 @@ label.error {
 #indexLeftColumn {
     text-align: left;
     height: 400px;
-    width: 350px;
+    width: 600px;
     float: left;
 }
 
@@ -230,17 +230,19 @@ label.error {
 }
 
 #selectedCategory {
-    background-color: #b2d2d2;
+    color: white;
+    background-color: #424744;
     margin-left: 10px;
     width: 139px;
 }
 
 #categoryTitle {
     margin-top: -40px;
-    right: 385px;
+    right: 305px;
     font-size: x-large;
     position: absolute;
-    background-color: #f5eabe;
+    color: white;
+    background-color: #424744;
     padding: 7px;
     border-radius: 4px;
 }
@@ -251,7 +253,7 @@ label.error {
 }
 
 #productTable {
-    width: 600px;
+    width: 800px;
 
     /* styles to collaborate with rounded categoryLabel */
     position: relative;
@@ -272,7 +274,7 @@ label.error {
 
 #subtotal { margin: 40px 0 20px 430px }
 
-#cartTable { width: 750px }
+#cartTable { width: 1050px }
 
 #cartTable td {
     width: 145px;

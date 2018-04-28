@@ -68,13 +68,13 @@
                         <c:when test="${empty sessionScope['javax.servlet.jsp.jstl.fmt.locale.session']}">
                           <c:choose>
                             <c:when test="${pageContext.request.locale.language ne 'es_MX'}">
-                              english
+                              English
                             </c:when>
                             <c:otherwise>
                               <c:url var="url" value="chooseLanguage">
                                 <c:param name="language" value="en"/>
                               </c:url>
-                              <div class="bubble"><a href="${url}">english</a></div>
+                              <div class="bubble"><a href="${url}">English</a></div>
                             </c:otherwise>
                           </c:choose> |
 
@@ -95,13 +95,13 @@
                         <c:otherwise>
                           <c:choose>
                             <c:when test="${sessionScope['javax.servlet.jsp.jstl.fmt.locale.session'] ne 'es_MX'}">
-                              english
+                              English
                             </c:when>
                             <c:otherwise>
                               <c:url var="url" value="chooseLanguage">
                                 <c:param name="language" value="en"/>
                               </c:url>
-                              <div class="bubble"><a href="${url}">english</a></div>
+                              <div class="bubble"><a href="${url}">English</a></div>
                             </c:otherwise>
                           </c:choose> |
 
